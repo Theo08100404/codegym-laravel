@@ -1,4 +1,4 @@
-FROM mysql:8.0
+FROM --platform=linux/amd64 mysql:8
 
 # Set debian default locale to ja_JP.UTF-8
 RUN apt-get update \
